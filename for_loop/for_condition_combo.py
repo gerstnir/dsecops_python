@@ -42,3 +42,28 @@
 #         count = count + 1
 
 # print(count)
+
+# tirgul
+
+
+# # sum numbers that can be divided by 3
+# sum_div3 = 0
+
+# for x in range(1000, 5000):
+#     print(x)
+#     if x % 3 == 0:
+#         print("added", x, "to sum")
+#         sum_div3 = sum_div3 + x
+
+# print("Total sum of divisable by 3: ", sum_div3)
+
+# count number of a in string
+string = input("enter a string: ")
+
+a_count = 0
+
+for x in string:
+    if x == "a":
+        a_count = a_count + 1
+
+print(a_count)
