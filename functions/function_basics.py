@@ -62,26 +62,58 @@
     
 # print( list(loopList2(5)) )
 
+# # OPTIONAL - using recursive function
+# def fact(x):
+#     if x == 1:
+#         return 1
+#     else:
+#         return (x * fact(x-1) )
 
-# tirgul
-
-def simple_function(name):
-    print("Hello", name)
-
-simple_function("ShemNafoz")
+# print( fact(5) )
 
 
-def prod_function(x,y):
-    return x*y
+# # tirgul
 
-prod_function(3,7)
-print(prod_function(5,7))
+# def simple_function(name):
+#     print("Hello", name)
+
+# simple_function("ShemNafoz")
+
+
+# def prod_function(x,y):
+#     return x*y
+
+# prod_function(3,7)
+# print(prod_function(5,7))
 
 
 def upto_function(x):
-    for i in range(x):
+    # adding x+1 to include x in the result
+    for i in range(x+1):
         yield i
 
-upto_20 = upto_function(20)
+print(list(upto_function(7)))
+print(list(upto_function(20)))
 
-print(list(upto_20))
+
+# ## OPTIONAL - recursive countdown ## this part is not mandatory!
+# def recursive_countdown(x):
+#     print(x)
+#     # stopping condition
+#     if x == 0:
+#         return 0
+#     # this part handles negative initial number as well
+#     elif x < 0:
+        
+#         return recursive_countdown(x+1)
+#     # the function takes a new argument which is the original argument minus 1
+#     # print(x)
+#     return recursive_countdown(x-1)
+
+# recursive_countdown(10)
+# recursive_countdown(-8)
+
+
+
+
+
