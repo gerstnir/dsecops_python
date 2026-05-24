@@ -4,11 +4,11 @@
 # for x in c:
 #     print(x)
 
-# # example welcoming people to the course
-# names = ["moshe", "shraga", "shirel"]
+# example welcoming people to the course
+names = ["moshe", "shraga", "shirel"]
 
-# for x in names:
-#     print("Hello", x, "welcome to DevSecOps")
+for x in names:
+    print("Hello", x, "welcome to DevSecOps")
 
 # c = [1, 3, 5]
 
@@ -39,10 +39,10 @@
 # ls2 = [ x for x in ls1 if "o" in x ]
 
 # # # the above expression is equivalent to this:
-# # ls2 = []
-# # for x in ls1:
-# #     if "o" in x:
-# #         ls2.append(x)
+# ls2 = []
+# for x in ls1:
+#     if "o" in x:
+#         ls2.append(x)
 
 # print(ls2)
 
@@ -74,22 +74,29 @@
 # # first element of the first element of ls4 is an int
 # print(ls4[0][2], type(ls4[0][2]))
 
-# tirgul
+# # tirgul
 
-ls1 = [ x for x in range(101) ]
-print(ls1)
+# ls1 = [ x for x in range(101) ]
+# print(ls1)
 
-ls2 = [ "alpha","bravo","charlie","delta","echo","foxtrot","golf","hotel","india","juliet" ]
+# ls2 = [ "alpha","bravo","charlie","delta","echo","foxtrot","golf","hotel","india","juliet" ]
 
-for x in ls2:
-    print(x)
+# # print( len( ls2 ) )
+# print("ls2 =",ls2, "of type:", type(ls2))
+# for x in ls2:
+#     print("x =",x, "of type:", type(x))
 
-ls3 = []
+#     for c in x:
+#         print("c =",c, "of type:", type(c))
 
-for x in ls2:
-    if "a" in x:
-        ls3.append(x)
 
-print(ls3)
+
+# ls3 = []
+
+# for x in ls2:
+#     if "a" in x:
+#         ls3.append(x)
+
+# print(ls3)
 
 

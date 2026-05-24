@@ -27,7 +27,7 @@ d = [True, False, True]
 
 # print(c)
 
-# index - find index of specific value
+# # index - find index of specific value
 # c = ["Hi", "To", "All"]
 
 # x = c.index("To")
