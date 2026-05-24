@@ -8,7 +8,10 @@ d = (1, "Hello", 0.52, False)
 
 # # indexing
 
-# d = (1, "Smart", 0.54, False)
+d = (1, "Smart", 0.54, False)
+
+# for x in d:
+#     print(x)
 
 # print(d)
 # print(d[2])
@@ -20,34 +23,35 @@ d = (1, "Hello", 0.52, False)
 # print(d[:3])
 
 
-# lists nested in tuples
-ls1 = [1,2,3]
-ls2 = [4,5,6]
 
-ls3 = (ls1, ls2)
+# # lists nested in tuples
+# ls1 = [1,2,3]
+# ls2 = [4,5,6]
 
-print( ls3[0][2])
-print( ls3[1][1])
-
-# # can't add new list to a tuple - it's immutable
-# ls_new = [7,8,9]
-
-# print(ls3)
-# ls3.append(ls_new)
-# print(ls3)
-
-# tuples nested in lists
-ls1 = (1,2,3)
-ls2 = (4,5,6)
-
-ls3 = [ls1, ls2]
+# ls3 = (ls1, ls2)
 
 # print( ls3[0][2])
 # print( ls3[1][1])
 
-# but i can add new tuple to a list - it IS mutable
-t_new = (7,8,9)
+# # # can't add new list to a tuple - it's immutable
+# # ls_new = [7,8,9]
 
-print(ls3)
-ls3.append(t_new)
-print(ls3)
+# # print(ls3)
+# # ls3.append(ls_new)
+# # print(ls3)
+
+# # tuples nested in lists
+# ls1 = (1,2,3)
+# ls2 = (4,5,6)
+
+# ls3 = [ls1, ls2]
+
+# # print( ls3[0][2])
+# # print( ls3[1][1])
+
+# # but i can add new tuple to a list - it IS mutable
+# t_new = (7,8,9)
+
+# print(ls3)
+# ls3.append(t_new)
+# print(ls3)
