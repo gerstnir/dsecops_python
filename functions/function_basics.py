@@ -7,12 +7,18 @@
 # # first part roughly means "x = "
 
 # def f_name1 (x):
+#     # x is the parameter
+#     # x = 
+#     # when we call the function, the arguement is the value that goes into x
+#     # for example when we call f_name1(5) below, 5 is the argument that goes into the parameter x
 #     print(x)
 
 # # second part roughly means " = 'shalom'"
 
-# f_name('shalom')
+# f_name1(5) # here the argument is 5 (an integer)
+# f_name1(11) # here the argument is 11
 
+# f_name1('shalom') # here the argument is 'shalom' (a string)
 
 # def f_name2 (x):
 #     x = x + 1
@@ -37,6 +43,23 @@
 #         print(y, "Is bigger than", x)
 
 # f_name3(3,7)
+
+
+# def f_name33(x):
+#     # x = 
+#     # using return means the function equals whatever is after "return"
+#     # return 3 basically means f_name33() = 3
+#     x = x + 10
+#     # print(x)
+#     return x
+
+# # x = 5
+# # x = x + 10
+# # a = x
+
+# a = f_name33(5)
+# print(a)
+
 
 # def f_name4 (x,y):
 #     return (x*y)
@@ -75,16 +98,20 @@
 # # tirgul
 
 # def simple_function(name):
+#     # name = 
 #     print("Hello", name)
 
 # simple_function("ShemNafoz")
-
+# # name = "ShemNafoz"
 
 # def prod_function(x,y):
+#     # x = 
+#     # y = 
 #     return x*y
 
 # prod_function(3,7)
-# print(prod_function(5,7))
+# # print( prod_function(3,7) )
+# print( prod_function(5,7) )
 
 
 def upto_function(x):
@@ -92,7 +119,10 @@ def upto_function(x):
     for i in range(x+1):
         yield i
 
-print(list(upto_function(7)))
+# for i in range(7+1):
+#     print(i)
+
+print( list( upto_function(7) ) )
 print(list(upto_function(20)))
 
 

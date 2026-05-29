@@ -35,3 +35,10 @@ print(name)
 # tirgul
 
 ## see func2 example above^
+
+def func3(x,y=2.3333,z='goodbye'):
+
+    print(x,y,z)
+
+func3(3, 7.66671, 'hello')
+func3(8)
