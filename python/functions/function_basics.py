@@ -73,17 +73,19 @@
 #         return i
         
 #     print("function finished")
-    
-# print( loopList1(5) )
+
+# x = loopList1(5)
+
+# print( x )
 
 
-# def loopList2 (x):
-#     for i in range(x):
-#         yield i
+def loopList2 (x):
+    for i in range(x):
+        yield i
         
-#     print("function finished")
+    print("function finished")
     
-# print( list(loopList2(5)) )
+print(  loopList2(5)  )
 
 # # OPTIONAL - using recursive function
 # def fact(x):
@@ -114,16 +116,16 @@
 # print( prod_function(5,7) )
 
 
-def upto_function(x):
-    # adding x+1 to include x in the result
-    for i in range(x+1):
-        yield i
+# def upto_function(x):
+#     # adding x+1 to include x in the result
+#     for i in range(x+1):
+#         yield i
 
-# for i in range(7+1):
-#     print(i)
+# # for i in range(7+1):
+# #     print(i)
 
-print( list( upto_function(7) ) )
-print(list(upto_function(20)))
+# print( list( upto_function(7) ) )
+# print(list(upto_function(20)))
 
 
 # ## OPTIONAL - recursive countdown ## this part is not mandatory!

@@ -41,10 +41,10 @@ d = (1, "Smart", 0.54, False)
 # # print(ls3)
 
 # # tuples nested in lists
-# ls1 = (1,2,3)
-# ls2 = (4,5,6)
+ls1 = (1,2,3)
+ls2 = (4,5,6)
 
-# ls3 = [ls1, ls2]
+ls3 = [ls1, ls2]
 
 # # print( ls3[0][2])
 # # print( ls3[1][1])

@@ -6,6 +6,18 @@ c = ["Hi", "To", "All"]
 
 d = [True, False, True]
 
+
+print( c[ :2 ] )
+# print( [x for x in range(1,5)] )
+
+
+
+
+
+
+
+
+
 # print( c[ 0: ] )
 # print(type ( c[ 0: ] ))
 

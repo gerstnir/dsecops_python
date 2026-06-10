@@ -101,11 +101,13 @@
 
 # tirgul
 
-# my_dict = {"key1": "val1",
-#            "key2": "val2",
-#            "key3": 345
+my_dict = {"key1" : "val1",
+           "key2" : "val2",
+           "key3" : 345
 
-# }
+}
+
+print( my_dict[ "key1" ] )
 
 # # equiavalent to:
 # key1 = "val1"
@@ -115,23 +117,23 @@
 # the vars inside the dictionary are separate from global variables
 # print(key3, my_dict["key3"])
 
-my_dict = {"key1": "val1",
-           "key2": "val2",
-           "key3": 345
+# my_dict = {"key1": "val1",
+#            "key2": "val2",
+#            "key3": 345
 
-}
+# }
 
-print(my_dict.keys())
-print(my_dict.values())
+# print(my_dict.keys())
+# print(my_dict.values())
 
-# example for list
-my_list = ("val1", "val2", 345)
-print(my_list[0])
+# # example for list
+# my_list = ("val1", "val2", 345)
+# print(my_list[0])
 
-#calling specific value by key name
-print(my_dict["key1"])
+# #calling specific value by key name
+# print(my_dict["key1"])
 
-for x,y in my_dict.items():
-    print(x,y)
+# for x,y in my_dict.items():
+#     print(x,y)
 
-print(my_dict.items())
+# print(my_dict.items())
